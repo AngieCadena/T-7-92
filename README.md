@@ -1,5 +1,8 @@
 # T-7-92 - Smile Bang Page
 
+<img width="1621" alt="Screen Shot 2021-09-16 at 10 19 56 PM" src="https://user-images.githubusercontent.com/51678086/133718884-784021aa-4a4e-4175-96d0-9b261cd2dee1.png">
+
+
 > Repositorio destinado a la creación y paulatino desarrollo del proyecto del grupo 7 de MINTIC 2022.
 
 Smile Bang es una banda de rock para niños creada por profesores de música. Próximamente lanzarán su primer disco. No cuentan con página de internet, sin embargo sí tienen redes sociales activas y realizan con frecuencia actividades que le dan vida a la banda.
