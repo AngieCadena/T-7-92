@@ -54,6 +54,8 @@ Actualizado nuestro repositorio local, creamos la rama:
 
 <img width="400" alt="Screen Shot 2021-09-16 at 9 07 41 PM" src="https://user-images.githubusercontent.com/51678086/133714722-ec6495b8-bf55-4c61-8a21-6b61ac90e46b.png">
 
+<img width="400" alt="Screen Shot 2021-09-16 at 9 08 47 PM" src="https://user-images.githubusercontent.com/51678086/133784971-fd9e00ae-8384-4fb6-80f3-7f76d1fe9969.png">
+
 - Compartimos el link del pull request en el grupo de whatsApp **para que otro compañero revise los cambios y, si no encuentra incongruencias, lo acepta**.
 
 Revisamos en la pestaña `Changed files`
