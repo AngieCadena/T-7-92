@@ -861,7 +861,7 @@ ol {
 -----------------------*/
 
 .countdown {
-	padding-bottom: 560px;
+	padding-bottom: 480px;
 }
 
 .countdown.countdown--page {
@@ -875,15 +875,15 @@ ol {
 }
 
 .countdown__text h1 {
-	font-size: 90px;
-	color: #ffffff;
+	font-size: 150px;
+	color: #FBF003;
 	font-family: "Rockville Solid Regular";
 	color: #ffffff;
 	margin-bottom: 25px;
 }
 
 .countdown__text h4 {
-	font-size: 26px;
+	font-size: 30px;
 	font-family: "Now Regular";
 	color: #ffffff;
 	text-transform: uppercase;
@@ -906,23 +906,34 @@ ol {
 }
 
 .countdown__item span {
-	font-size: 90px;
+	font-size: 150px;
 	font-family: "Rajdhani", sans-serif;
 	font-weight: 700;
-	color: #ffffff;
+	color: #B0016F;
 	display: block;
 	line-height: 100px;
 }
 
 .countdown__item p {
-	color: #ffffff;
+	color: #B0016F;
+	font-size: 30px;
 	letter-spacing: 4px;
 	text-transform: uppercase;
 	margin-bottom: 0;
 }
-
 .buy__tickets {
 	text-align: center;
+}
+.buy__tickets .primary-btn { 
+	
+
+		display: inline-block;
+		font-size: 15px;
+		text-transform: uppercase;
+		padding: 14px 25px 12px;
+		color:  #201F1F;
+		background: #FBF003;
+		letter-spacing: 2px;
 }
 
 /*---------------------
@@ -1041,13 +1052,13 @@ ol {
 }
 
 .footer__address ul li i {
-	font-size: 18px;
-	color: #5c00ce;
-	height: 50px;
-	width: 50px;
-	background: #ffffff;
+	font-size: 25px;
+	color: #FBF003;
+	height: 60px;
+	width: 60px;
+	background: #549ADE;
 	border-radius: 50%;
-	line-height: 50px;
+	line-height: 60px;
 	text-align: center;
 	position: absolute;
 	left: 0;
@@ -1055,21 +1066,25 @@ ol {
 }
 
 .footer__address ul li p {
-	color: #ffffff;
-	opacity: 0.7;
-	margin-bottom: 8px;
+	
+	color:  #ffffff;
+	opacity: 1;
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 10px;
 }
 
 .footer__address ul li h6 {
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 700;
-	color: #ffffff;
+	color: #ffffff
+;
 }
 
 .footer__social {
 	text-align: center;
 	position: relative;
-	margin-bottom: 50px;
+	margin-bottom: 60px;
 }
 
 .footer__social::before {
@@ -1099,16 +1114,16 @@ ol {
 }
 
 .footer__social .footer__social__links a {
-	font-size: 18px;
-	color: #5c00ce;
-	height: 50px;
-	width: 50px;
-	background: #ffffff;
+	font-size: 50px;
+	color: #ffffff;
+	height: 90px;
+	width: 90px;
+	background: #DD9701;
 	border-radius: 50%;
-	line-height: 50px;
+	line-height: 90px;
 	text-align: center;
 	display: inline-block;
-	margin-right: 10px;
+	margin-right: 20px;
 }
 
 .footer__social .footer__social__links a:last-child {
@@ -1120,9 +1135,9 @@ ol {
 }
 
 .footer__newslatter h4 {
-	font-size: 26px;
-	color: #ffffff;
-	font-weight: 700;
+	font-size: 28px;
+	color: #201F1F;
+	font-weight: 900;
 	margin-bottom: 30px;
 }
 
@@ -1131,44 +1146,44 @@ ol {
 }
 
 .footer__newslatter form input {
-	height: 50px;
-	font-size: 15px;
-	color: #ffffff;
+	height: 60px;
+	font-size: 20px;
+	color: #201F1F;
 	width: 100%;
 	background: transparent;
-	border: 1px solid rgba(255, 255, 255, 0.2);
+	border: 3px solid #201F1F;
 	padding-left: 20px;
 }
 
 .footer__newslatter form input::-webkit-input-placeholder {
-	color: #ffffff;
+	color: #201F1F;;
 }
 
 .footer__newslatter form input::-moz-placeholder {
-	color: #ffffff;
+	color: #201F1F;
 }
 
 .footer__newslatter form input:-ms-input-placeholder {
-	color: #ffffff;
+	color: #201F1F;
 }
 
 .footer__newslatter form input::-ms-input-placeholder {
-	color: #ffffff;
+	color: #C10101;
 }
 
 .footer__newslatter form input::placeholder {
-	color: #ffffff;
+	color: #C10101;
 }
 
 .footer__newslatter form button {
 	font-size: 18px;
-	color: #5c00ce;
+	color: #ffffff;
 	position: absolute;
 	right: 0;
 	top: 0;
 	height: 100%;
 	padding: 0 16px;
-	background: #ffffff;
+	background: #C10101;
 	border: none;
 }
 
@@ -2568,7 +2583,7 @@ ol {
 
 .contact__address ul li h5 {
 	font-size: 20px;
-	color: #111111;
+	color: #1111;
 	font-weight: 700;
 	margin-bottom: 10px;
 }
