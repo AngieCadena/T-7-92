@@ -263,10 +263,7 @@ ol {
 -----------------------*/
 
 .header {
-	background: rgba(42, 1, 74, 0.5);
-	position: absolute;
-	left: 0;
-	top: 0;
+	background: rgb(48, 47, 47);
 	width: 100%;
 	z-index: 9;
 }
@@ -399,7 +396,7 @@ ol {
 -----------------------*/
 
 .hero {
-	padding-top: 400px;
+	padding-top: 150px;
 	padding-bottom: 295px;
 	position: relative;
 }
@@ -460,17 +457,47 @@ ol {
 }
 
 .linear__icon {
-	position: absolute;
-	left: 50%;
+	margin-top: 10px;
 	bottom: 0;
-	margin-left: -16px;
 	-webkit-animation: mymove 0.5s infinite alternate;
 	animation: mymove 0.5s infinite alternate;
 }
 
 .linear__icon i {
 	font-size: 50px;
-	color: #5c00ce;
+	color: #ffffff;
+}
+
+.video_styles {
+	border-radius: 20px;
+	-webkit-box-shadow: 5px 5px 15px 5px #191915; 
+	box-shadow: 5px 5px 15px 5px #191915;
+}
+
+.hero_slider_overlap {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+    position: absolute;
+	z-index: 10;
+	left: 0%;
+	top: 0%;
+}
+
+.hero_father {
+	position: relative;
+}
+
+.slider_item_styles {
+	width: 100%;
+	min-width: 100%;
+}
+
+.text_container_space {
+	margin-top: 50px;
 }
 
 @-webkit-keyframes mymove {
