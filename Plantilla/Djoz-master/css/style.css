@@ -472,7 +472,18 @@ ol {
 	border-radius: 20px;
 	-webkit-box-shadow: 5px 5px 15px 5px #191915; 
 	box-shadow: 5px 5px 15px 5px #191915;
+	border: none;
 }
+
+.video_styles_youtube {
+	border-radius: 10px;
+	-webkit-box-shadow: 5px 5px 15px 5px #191915; 
+	box-shadow: 5px 5px 15px 5px #191915;
+	border: none;
+	width: 100%;
+	height: 100%;
+	min-height: 280px;
+ }
 
 .hero_slider_overlap {
 	display: flex;
