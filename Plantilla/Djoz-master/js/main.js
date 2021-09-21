@@ -121,7 +121,7 @@
     /* var timerdate = "2020/01/01"; */
 
 	$("#countdown-time").countdown(timerdate, function(event) {
-        $(this).html(event.strftime("<div class='countdown__item'><span>%D</span> <p>Days</p> </div>" + "<div class='countdown__item'><span>%H</span> <p>Hours</p> </div>" + "<div class='countdown__item'><span>%M</span> <p>Minutes</p> </div>" + "<div class='countdown__item'><span>%S</span> <p>Seconds</p> </div>"));
+        $(this).html(event.strftime("<div class='countdown__item'><span>%D</span> <p>Días</p> </div>" + "<div class='countdown__item'><span>%H</span> <p>Horas</p> </div>" + "<div class='countdown__item'><span>%M</span> <p>Minutos</p> </div>" + "<div class='countdown__item'><span>%S</span> <p>Segundos</p> </div>"));
     });
 
     /*------------------
