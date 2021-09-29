@@ -176,8 +176,8 @@ ol {
 }
 
 .primary-btn.border-btn {
-	background: transparent;
-	border: 2px solid #5c00ce;
+	background: #FBF003 ;
+	border: 2px solid #C10101;
 	color: #111111;
 }
 
@@ -673,8 +673,8 @@ ol {
 }
 
 .jp-state-playing .jp-play {
-	background: #5c00ce !important;
-	border-color: #5c00ce !important;
+	background: #C10101 !important;
+	border-color: #C10101 !important;
 }
 
 .jp-state-playing .jp-play:after {
@@ -684,8 +684,8 @@ ol {
 }
 
 .jp-audio .jp-play:focus {
-	background: #5c00ce !important;
-	border-color: #5c00ce !important;
+	background: #C10101 !important;
+	border-color: #C10101 !important;
 }
 
 .jp-audio .jp-play:focus:after {
@@ -712,7 +712,7 @@ ol {
 .jp-play-bar {
 	position: relative;
 	height: 100%;
-	background: #5c00ce;
+	background: #C10101;
 	overflow: visible !important;
 }
 
@@ -756,7 +756,7 @@ ol {
 }
 
 .jp-volume-bar-value {
-	background: #5c00ce;
+	background: #DD9701;
 	height: 100%;
 }
 
