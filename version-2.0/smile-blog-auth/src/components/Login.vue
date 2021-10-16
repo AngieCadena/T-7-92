@@ -42,8 +42,10 @@
     </b-col>
   </b-row>
 </template>
+
 <script>
 import axios from 'axios'
+
 export default {
   name: 'Login',
   data () {
@@ -57,13 +59,13 @@ export default {
       evt.preventDefault()
       axios
         .post(`http://localhost:3000/api/auth/login/`, this.login)
-        .then((response) => {
+        .then(response => {
           localStorage.setItem('jwtToken', response.data.token)
           this.$router.push({
             name: 'BlogList'
           })
         })
-        .catch((e) => {
+        .catch(e => {
           console.log(e)
           this.errors.push(e)
         })
